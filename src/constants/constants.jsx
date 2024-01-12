@@ -7,6 +7,11 @@ import {
   dropbox,
   shopify,
   possibility,
+  blog1,
+  blog2,
+  blog3,
+  blog4,
+  blog5,
 } from '../assets/index';
 export const navLinks = [
   { link: 'Home', nav: 'home' },
@@ -105,4 +110,37 @@ export const ctaConstants = {
   desc: 'Request Early Access to Get Started',
   mainDesc: 'Register today & start exploring the endless possiblities.',
   buttonContent: 'Get Started',
+};
+
+//blog constants
+
+export const blogConstants = {
+  head: 'A lot is happening,We are blogging about it.',
+  blogCard: [
+    {
+      image: blog1,
+      date: 'Sep 26, 2021',
+      title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    },
+    {
+      image: blog2,
+      date: 'Sep 26, 2021',
+      title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    },
+    {
+      image: blog3,
+      date: 'Sep 26, 2021',
+      title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    },
+    {
+      image: blog4,
+      date: 'Sep 26, 2021',
+      title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    },
+    {
+      image: blog5,
+      date: 'Sep 26, 2021',
+      title: 'GPT-3 and Open  AI is the future. Let us exlore how it is?',
+    },
+  ],
 };

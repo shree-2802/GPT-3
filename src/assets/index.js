@@ -3,6 +3,8 @@ import atlassian from './atlassian.png';
 import blog1 from './blog01.png';
 import blog2 from './blog02.png';
 import blog3 from './blog03.png';
+import blog4 from './blog04.png';
+import blog5 from './blog05.png';
 import dropbox from './dropbox.png';
 import google from './google.png';
 import logo1 from './logo.png';
@@ -18,6 +20,8 @@ export {
   blog1,
   blog2,
   blog3,
+  blog4,
+  blog5,
   dropbox,
   google,
   logo1,
