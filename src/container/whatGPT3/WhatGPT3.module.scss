@@ -1,0 +1,89 @@
+.gpt3__define {
+  display: flex;
+  // background-color: #042c54;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 4rem;
+  background:radial-gradient(circle at 2% 2%, #545f75 0%,#205c97 0% ,#042c54 30%),
+  radial-gradient(circle at 90% 100%, #545f75 0%,#205c97 0% ,#042c54 30%)  right;
+
+  margin: 2rem 4rem;
+  .gpt3__define_container_head {
+    display: flex;
+    justify-content: center;
+    column-gap: 15rem;
+    .gpt3__define_container_head_p {
+      color: var(--color-text);
+      line-height: 1.8rem;
+      align-self: center;
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 72px;
+      min-width: 170px;
+    }
+  }
+  &_container {
+    &_middle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 55px;
+        max-width: 65%;
+      }
+      p {
+        color: var(--color-subtext);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        min-width: 200px;
+        text-align: center;
+      }
+    }
+    &_footer {
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      &_div {
+        p {
+          font-size: 20px;
+          max-width: 340px;
+          color: var(--color-text);
+          line-height: 1.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width<1000px) {
+  .gpt3__define {
+    &_container {
+      &_head {
+        flex-direction: column;
+      }
+      &_middle {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        h1 {
+          font-size: 40px;
+          text-align: center;
+          max-width: 100%;
+        }
+      }
+      &_footer {
+        flex-direction: column;
+      }
+    }
+  }
+}
