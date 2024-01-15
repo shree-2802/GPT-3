@@ -12,6 +12,7 @@ import {
   blog3,
   blog4,
   blog5,
+  logo2
 } from '../assets/index';
 export const navLinks = [
   { link: 'Home', nav: 'home' },
@@ -144,3 +145,27 @@ export const blogConstants = {
     },
   ],
 };
+
+//Footer constants
+
+export const footerConstants={
+  heading:'Do you want to step in to the future before others',
+  buttonContent:'Request Early Access',
+  name:logo2,
+  context:'Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved',
+  links:[
+    'Overons',
+    'Social Media',
+    'Counters',
+    'Contact'],
+    Company:[
+      'Terms & Conditions',
+      'Privacy Policy',
+      'Contact'],
+      "Get in touch":[   
+'Crechterwoord K12 182 DK Alknjkcb',
+'085-132567',
+'info@payme.net'
+      ],
+      "Copy rights":'© 2021 GPT-3. All rights reserved.'
+}
